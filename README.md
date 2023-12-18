@@ -1,2 +1,2 @@
 # beydamax
-E-commerce website for Baydamax renting products
+E-commerce website for beydamax renting products

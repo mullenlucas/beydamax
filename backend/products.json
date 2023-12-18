@@ -1,0 +1,273 @@
+
+[
+  {
+    "nombre": "Pantalla con trípode 100 pulgadas",
+    "precio": 3000,
+    "stock": 1,
+    "categoria": "pantallas",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Pantalla con trípode 100 pulgadas",
+    "id": 1
+  },
+  {
+    "nombre": "Inflador de globos",
+    "precio": 1200,
+    "stock": 1,
+    "categoria": "fiestas",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Inflador de globos para fiestas",
+    "id": 2
+  },
+  {
+    "nombre": "Hidrolavadora eléctrica",
+    "precio": 1500,
+    "stock": 1,
+    "categoria": "limpieza",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Hidrolavadora eléctrica para limpieza",
+    "id": 3
+  },
+  {
+    "nombre": "Carro zorra plegable 150kg",
+    "precio": 1600,
+    "stock": 1,
+    "categoria": "logística",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Carro zorra plegable para logística",
+    "id": 4
+  },
+  {
+    "nombre": "Carro zorra plegable 300kg",
+    "precio": 3000,
+    "stock": 1,
+    "categoria": "logística",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Carro zorra plegable para logística",
+    "id": 5
+  },
+  {
+    "nombre": "Bomba desgote sumergible",
+    "precio": 2000,
+    "stock": 1,
+    "categoria": "hidro",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Bomba desgote sumergible",
+    "id": 6
+  },
+  {
+    "nombre": "Máquina para pintar eléctrica",
+    "precio": 1000,
+    "stock": 1,
+    "categoria": "pintura",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Máquina para pintar eléctrica",
+    "id": 7
+  },
+  {
+    "nombre": "Soldadora inverter eléctrica digital",
+    "precio": 2000,
+    "stock": 1,
+    "categoria": "electricidad",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Soldadora inverter eléctrica digital",
+    "id": 8
+  },
+  {
+    "nombre": "Freidora Moretti 8lts",
+    "precio": 3000,
+    "stock": 1,
+    "categoria": "cocina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Freidora Moretti de 8 litros",
+    "id": 9
+  },
+  {
+    "nombre": "Freidora Moretti 11lts",
+    "precio": 4800,
+    "stock": 1,
+    "categoria": "cocina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Freidora Moretti de 11 litros",
+    "id": 10
+  },
+  {
+    "nombre": "Sierra sensitiva gamma",
+    "precio": 2000,
+    "stock": 1,
+    "categoria": "electricidad",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Sierra sensitiva gamma",
+    "id": 11
+  },
+  {
+    "nombre": "Escalera Multifunción Articulada de Aluminio",
+    "precio": 1400,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Escalera Multifunción Articulada de Aluminio",
+    "id": 12
+  },
+  {
+    "nombre": "Clavadora engrampadora eléctrica",
+    "precio": 1500,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Clavadora engrampadora eléctrica",
+    "id": 13
+  },
+  {
+    "nombre": "Anilladora A4",
+    "precio": 1500,
+    "stock": 1,
+    "categoria": "librería",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Anilladora A4 para librerías",
+    "id": 14
+  },
+  {
+    "nombre": "Limpiador ultrasónico",
+    "precio": 1500,
+    "stock": 1,
+    "categoria": "limpieza",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "limpiador ultrasónico para limpieza de piezas pequeñas",
+    "id": 15
+  },
+  {
+    "nombre": "Contadora de billetes",
+    "precio": 3000,
+    "stock": 1,
+    "categoria": "contadora",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Contadora de billetes para negocios",
+    "id": 16
+  },
+  {
+    "nombre": "Lijadora roto orbital",
+    "precio": 3800,
+    "stock": 1,
+    "categoria": "limpieza",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Lijadora roto orbital para limpieza de superficies",
+    "id": 17
+  },
+  {
+    "nombre": "Amoladora",
+    "precio": 900,
+    "stock": 1,
+    "categoria": "contrucción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Amoladora - herramientas de construcción",
+    "id": 18
+  },
+  {
+    "nombre": "Muletas x 15 días",
+    "precio": 3000,
+    "stock": 1,
+    "categoria": "medicina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Muletas alquilables para 15 días",
+    "id": 19
+  },
+  {
+    "nombre": "Bota Walker ortopédica x 15 días",
+    "precio": 3200,
+    "stock": 1,
+    "categoria": "medicina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Bota ortopédica alquilable para 15 días",
+    "id": 20
+  },
+  {
+    "nombre": "Bota Walker ortopédica pediátrica x 15 días",
+    "precio": 3200,
+    "stock": 1,
+    "categoria": "medicina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Bota ortopédica pediátrica alquilable para 15 días",
+    "id": 21
+  },
+  {
+    "nombre": "Ingletadora",
+    "precio": 2500,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Ingletadora para construcción",
+    "id": 22
+  },
+  {
+    "nombre": "Multicortadora oscilante",
+    "precio": 1200,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Multicortadora oscilante para construcción",
+    "id": 23
+  },
+  {
+    "nombre": "Sierra caladora eléctrica",
+    "precio": 1500,
+    "stock": 1,
+    "categoria": "cocina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Anafe eléctrico unitario",
+    "id": 24
+  },
+  {
+    "nombre": "Sierra de banco",
+    "precio": 7000,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Sierra de banco para construcción",
+    "id": 25
+  },
+  {
+    "nombre": "Compresómetro para motor diesel",
+    "precio": 1500,
+    "stock": 1,
+    "categoria": "automotriz",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Compresómetro para motor diesel",
+    "id": 26
+  },
+  {
+    "nombre": "Llave pistola neumática",
+    "precio": 1100,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Llave pistola neumática para construcción",
+    "id": 27
+  },
+  {
+    "nombre": "Máscara para soldar",
+    "precio": 700,
+    "stock": 1,
+    "categoria": "construcción",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Máscaras para soldar",
+    "id": 28
+  },
+  {
+    "nombre": "Anafe",
+    "precio": 750,
+    "stock": 1,
+    "categoria": "cocina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Anafe para cocina",
+    "id": 29
+  },
+  {
+    "nombre": "Anafe portatil camping",
+    "precio": 1000,
+    "stock": 1,
+    "categoria": "cocina",
+    "imagen": "https://www.ikea.com/mx/es/images/products/tripod-screen-white__0719190_pe731721_s5.jpg?f=xl",
+    "descripcion": "Anafe portatil para camping",
+    "id": 30
+  }
+]
