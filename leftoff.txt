@@ -1,1 +1,1 @@
-14 - Programmatic Navigation With the useRouter Hook
+23 - Updating the Head Meta for Each Page
