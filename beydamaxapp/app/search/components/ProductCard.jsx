@@ -22,7 +22,7 @@ export default function ProductCard() {
           </div>
         </div>
         <div className="text-red-600">
-          <Link href="/producto/milesstones-grill">View more information</Link>
+          <Link href="/product/milesstones-grill">View more information</Link>
         </div>
       </div>
     </div>

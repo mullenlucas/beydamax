@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function ProductCard() {
   return(
-    <Link href="/producto/milesstone-grill">
+    <Link href="/product/milesstone-grill">
       <div className="w-64 h-72 m-3 rounded overflow-hidden border cursor-pointer">
         <img
           src="https://resizer.otstatic.com/v2/photos/wide-huge/2/31852905.jpg"

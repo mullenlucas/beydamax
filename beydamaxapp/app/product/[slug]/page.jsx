@@ -7,7 +7,7 @@ import Images from "./components/Images";
 import Reviews from "./components/Reviews";
 import ReservationCard from "./components/ReservationCard";
 
-export default function DetalleProducto() {
+export default function DetalleProduct() {
   return(
     <>
       <div className="bg-white w-[70%] rounded p-3 shadow">
