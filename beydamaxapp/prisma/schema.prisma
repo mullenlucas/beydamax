@@ -31,7 +31,6 @@ model Product {
 model Item {
   id          Int     @id     @default(autoincrement())
   name        String
-  price       Float
   description String
   created_at  DateTime @default(now())
   updated_at  DateTime @updatedAt
