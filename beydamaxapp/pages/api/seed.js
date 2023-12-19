@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   // await prisma.user.deleteMany();
 
   await prisma.categoria.createMany({
-    data: [{ name: "logistica" }, { name: "cocina" }]
+    data: [{ name: "logistica" }, { name: "cocina" }, { name: "electricidad"}]
   })
 
   const categorias = await prisma.categoria.findMany()
