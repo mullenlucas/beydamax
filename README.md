@@ -23,7 +23,12 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Set up from scratch
 
+### Installation
 [Link to installation instructions](https://ui.shadcn.com/docs/installation/next)
+
+### Clerk (for auth)
+[Link to Clrek](https://clerk.com/docs)
+
 ```
 npx create-next-app@latest . --typescript --tailwind --eslint
 ```
