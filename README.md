@@ -20,26 +20,49 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-
 ## Set up from scratch
 
 ### Installation
+
 [Link to installation instructions](https://ui.shadcn.com/docs/installation/next)
 
 ### Clerk (for auth)
+
 [Link to Clrek](https://clerk.com/docs)
 
+## Database
+
+Mongodb using Prisma
+
 ```
-npx create-next-app@latest . --typescript --tailwind --eslint
+// schema.prisma
+
+model Product {
+  id        String     @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  price     Float
+  stock     Int
+  category  String
+  owner     User       @relation(fields: [userId], references: [id])
+  userId    String
+  reservations Reservation[]
+}
+
+model User {
+  id        String     @id @default(auto()) @map("_id") @db.ObjectId
+  username  String     @unique
+  email     String     @unique
+  products  Product[]
+}
+
+model Reservation {
+  id        String     @id @default(auto()) @map("_id") @db.ObjectId
+  startDate DateTime
+  endDate   DateTime
+  product   Product    @relation(fields: [productId], references: [id])
+  productId String
+}
 ```
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
