@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Container from '../Container';
 import { useRouter } from 'next/navigation';
 import { Button } from '../ui/button';
+import SearchInput from '../SearchInput';
 
 const NavBar = () => {
 	const router = useRouter();
@@ -20,6 +21,7 @@ const NavBar = () => {
 						<Image src="/logo.svg" alt="logo" width="30" height="30" />
 						<div className="font-bold text-xl">Beydamax</div>
 					</div>
+					<SearchInput />
 					<div className="flex gap-3 items-center">
 						<div>Theme</div>
 						<UserButton afterSignOutUrl="/" />
