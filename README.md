@@ -37,31 +37,71 @@ Mongodb using Prisma
 ```
 // schema.prisma
 
-model Product {
-  id        String     @id @default(auto()) @map("_id") @db.ObjectId
-  name      String
-  price     Float
-  stock     Int
-  category  String
-  owner     User       @relation(fields: [userId], references: [id])
-  userId    String
-  reservations Reservation[]
+model Users {
+  id         Int      @id @default(autoincrement()) @unique
+  name       String
+  password   String
+  email      String   @unique
+  createdAt  DateTime @default(now())
+  role       Role
+  tools      Tools[] // Add a back-relation field
+   rentings   Rentings[]
 }
 
-model User {
-  id        String     @id @default(auto()) @map("_id") @db.ObjectId
-  username  String     @unique
-  email     String     @unique
-  products  Product[]
+model Tools {
+  id          Int      @id @default(autoincrement()) @unique
+  name        String
+  description String
+  category    String
+  price       Int
+  stock       Int
+  image       String
+  createdAt   DateTime @default(now())
+  rentedBy    Int?
+  user        Users?    @relation(fields: [rentedBy], references: [id], onDelete: Cascade)
+  rentings    Rentings[]
 }
 
-model Reservation {
-  id        String     @id @default(auto()) @map("_id") @db.ObjectId
-  startDate DateTime
-  endDate   DateTime
-  product   Product    @relation(fields: [productId], references: [id])
-  productId String
+model Rentings {
+  id          Int       @id @default(autoincrement()) @unique
+  userId      Int
+  toolId      Int
+  rentedFrom  DateTime
+  rentedUntil DateTime
+  isOut       Boolean   @default(true)
+  cameBack    DateTime?
+
+  user        Users     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tool        Tools     @relation(fields: [toolId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([toolId])
 }
+
+enum Role {
+  admin
+  renter
+}
+```
+
+Generate prisma client:
+Keeps the prisma client updated
+
+```
+npx prisma generate
+```
+
+Migrate DB:
+Will keep SQL and database synchronized
+
+```
+npx prisma migrate dev --name init
+```
+
+Visualize tables:
+
+```
+npx prisma studio
 ```
 
 ## Deploy on Vercel
